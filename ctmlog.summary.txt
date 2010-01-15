@@ -1,0 +1,614 @@
+ctmlog.summary report        started at 05/15/2007 10:09:44   
+
+
+ *starting with ctmlog beginning  of May 08 at 00:01
+
+0508-0001     NEW DAY PROCEDURE STARTED                                                                             
+0508-0001     CONTROL-M LOG CLEANUP STARTED                                                                         
+0508-0001     CONTROL-M LOG CLEANUP ENDED. DAYS=7                                                                   
+0508-0006     ACTIVE JOBS FILE CLEANUP ENDED                                                                        
+
+
+
+stats:  Jobs submitted -- 447 
+              Ended OK -- 479  
+           Ended NotOK -- 2  
+          Unique tasks -- 359 
+           Cyclic runs -- 88 
+     User interactions -- 31  
+               created --   
+                  held -- 8 
+                  free -- 8 
+                 Rerun --   
+             Forced ok -- 11 
+                Killed -- 4 
+               Deleted -- 
+             Undeleted -- 
+
+
+
+    # of         msg      
+occurrences      id      example messages (actually 1st occurrence of each msgid text)
+ ----------      ----    ----------------------------------------------------------------
+
+         7         11    JOB LOG COPIED TO /tmp/fs_unmount                                                                     
+        98         16    JOB LOG RELEASE FAILED Cannot release sysout of order 172038 run 1                                    
+         1       5006    CONTROL-M LOG CLEANUP ENDED. DAYS=7                                                                   
+         1       5011    CONTROL-M LOG CLEANUP STARTED                                                                         
+         1       5012    CONTROL-M JOBINF CLEANUP STARTED                                                                      
+         1       5013    CONTROL-M JOBINF CLEANUP ENDED. DAYS=3                                                                
+         1       5014    CONTROL-M AGENTS CLEANUP STARTED                                                                      
+         1       5015    CONTROL-M AGENTS CLEANUP ENDED. DAYS=3                                                                
+         1       5019    STATISTICS INFORMATION CLEANUP STARTED.                                                               
+         2       5030    ACTIVE JOBS FILE DOWNLOAD TO CONTROL-M/EM STARTED                                                     
+         1       5034    STATISTICS INFORMATION CLEANUP ENDED. MODE=0. LEAVE=20                                                
+         1       5040    NEW DAY PROCEDURE STARTED                                                                             
+         1       5041    ACTIVE JOBS FILE CLEANUP ENDED                                                                        
+         1       5061    USER DAILY SYSTEM STARTED                                                                             
+         1       5062    USER DAILY SYSTEM ENDED                                                                               
+       405       5065    ORDERED JOB:172715; DAILY SYSTEM, ODATE 20070508                                                      
+       447       5100    ENDED AT 20070508002750. OSCOMPSTAT 0. RUNCNT 1                                                       
+       447       5101    STARTED AT 20070508002713 ON BMC-PRD-CTRLM02                                                          
+       447       5105    SUBMITTED TO BMC-PRD-CTRLM01                                                                          
+      1919       5120    
+                  389    JOB STATE CHANGED TO Wait Time Window                                                                 
+                    9    JOB STATE CHANGED TO Executing                                                                        
+                    1    JOB STATE CHANGED TO Analyzed                                                                         
+                    4    JOB STATE CHANGED TO Post processed                                                                   
+                 1513    JOB STATE CHANGED TO Wait Rerun                                                                       
+        20       5132    STATUS SET TO OK AS A RESULT OF DO OK                                                                 
+       479       5133    ENDED OK                                                                                              
+         2       5134    ENDED NOTOK                                                                                           
+        16       5140    EMAIL TO FACETSUsers@bcbsla.com;itoperationscenter@bcbsla.com ITFacetsSupport@bcbsla.com;m2das@fcg.com;smenon@fcg.com PERFORM
+        34       5164    DUMMY. STATUS CHANGED TO OK                                                                           
+        28       5199    CONDITION 'ErCmcRunCkmm_SB.xml-ENDED-OK' '    0507' ALREADY EXISTS                                    
+       402       5209    CONDITION ctmdbused-OK     0508 ADDED                                                                 
+       412       5210    CONDITION ErCmcRunCldu-ENDED-OK     0503 DELETED                                                      
+         4       5212    JOB ErCcsRunUmii.xml, TABLE FaAdHocTbl  FORCED                                                        
+       275       5216    REMOVED FROM ACTIVE JOB FILE BY GENERAL DAILY                                                         
+         8       5401    HELD BY USER e15245                                                                                   
+         8       5402    FREED BY USER e15245                                                                                  
+         4       5409    JOB KILLED BY USER e15245                                                                             
+        10       5410    JOB FORCED OK                                                                                         
+        11       5411    FORCE OK REQUEST SUBMITTED BY USER e15245                                                             
+        94       5524    START OF TRACKING ALL ACTIVE JOBS                                                                     
+        12       5525    CTMJSA STARTED. MODE=JOBNAME                                                                          
+         1       5600    WATCH DOG PROCESS ENCOUNTERED ERROR The proc CD returned heartbeat but EXPIRE the timeout of: 360 secon
+         1       5763    FAILED TO DELETE CONDITION:30B-All-prjFAC2MAGCOBRecords-ENDED-OK DATEREF:STAT                         
+
+
+
+0509-0001     NEW DAY PROCEDURE STARTED                                                                             
+0509-0001     CONTROL-M LOG CLEANUP STARTED                                                                         
+0509-0001     CONTROL-M LOG CLEANUP ENDED. DAYS=7                                                                   
+0509-0006     ACTIVE JOBS FILE CLEANUP ENDED                                                                        
+
+
+
+stats:  Jobs submitted -- 450 
+              Ended OK -- 481  
+           Ended NotOK -- 5  
+          Unique tasks -- 372 
+           Cyclic runs -- 79 
+     User interactions -- 17  
+               created -- 0  
+                  held -- 6 
+                  free -- 4 
+                 Rerun -- 2  
+             Forced ok -- 2 
+                Killed -- 5 
+               Deleted -- 2
+             Undeleted -- 0
+
+
+
+    # of         msg      
+occurrences      id      example messages (actually 1st occurrence of each msgid text)
+ ----------      ----    ----------------------------------------------------------------
+
+         1          8    SHOUT TO itdatacenter FAILED The user name could not be found.                                        
+         7         11    JOB LOG COPIED TO /tmp/fs_unmount                                                                     
+        98         16    JOB LOG RELEASE FAILED Cannot release sysout of order 172443 run 1                                    
+         1       5006    CONTROL-M LOG CLEANUP ENDED. DAYS=7                                                                   
+         1       5010    MIRRORING HAS FAILED                                                                                  
+         1       5011    CONTROL-M LOG CLEANUP STARTED                                                                         
+         1       5012    CONTROL-M JOBINF CLEANUP STARTED                                                                      
+         1       5013    CONTROL-M JOBINF CLEANUP ENDED. DAYS=3                                                                
+         1       5014    CONTROL-M AGENTS CLEANUP STARTED                                                                      
+         1       5015    CONTROL-M AGENTS CLEANUP ENDED. DAYS=3                                                                
+         1       5019    STATISTICS INFORMATION CLEANUP STARTED.                                                               
+         2       5030    ACTIVE JOBS FILE DOWNLOAD TO CONTROL-M/EM STARTED                                                     
+         1       5034    STATISTICS INFORMATION CLEANUP ENDED. MODE=0. LEAVE=20                                                
+         1       5040    NEW DAY PROCEDURE STARTED                                                                             
+         1       5041    ACTIVE JOBS FILE CLEANUP ENDED                                                                        
+         1       5061    USER DAILY SYSTEM STARTED                                                                             
+         1       5062    USER DAILY SYSTEM ENDED                                                                               
+       400       5065    ORDERED JOB:172715; DAILY SYSTEM, ODATE 20070509                                                      
+       451       5100    ENDED AT 20070509002149. OSCOMPSTAT 0. RUNCNT 1                                                       
+       451       5101    STARTED AT 20070509002824 ON BMC-PRD-CTRLM01                                                          
+       450       5105    SUBMITTED TO BMC-PRD-CTRLM01                                                                          
+      1913       5120    
+                   14    JOB STATE CHANGED TO Wait Time Window                                                                 
+                    6    JOB STATE CHANGED TO Analyzed                                                                         
+                  366    JOB STATE CHANGED TO Post processed                                                                   
+                   16    JOB STATE CHANGED TO Executing                                                                        
+                 1508    JOB STATE CHANGED TO Wait Rerun                                                                       
+        20       5132    STATUS SET TO OK AS A RESULT OF DO OK                                                                 
+       481       5133    ENDED OK                                                                                              
+         5       5134    ENDED NOTOK                                                                                           
+        17       5140    EMAIL TO FACETSUsers@bcbsla.com;itoperationscenter@bcbsla.com ITFacetsSupport@bcbsla.com;m2das@fcg.com;smenon@fcg.com PERFORM
+        35       5164    DUMMY. STATUS CHANGED TO OK                                                                           
+        19       5199    CONDITION 'ErCmcRunCkmm_SB.xml-ENDED-OK' '    0508' ALREADY EXISTS                                    
+         2       5201    SHOUT TO ECS PERFORMED                                                                                
+         1       5202    SHOUT TO CONSOLE FAILED                                                                               
+       419       5209    CONDITION G-PRVNT220-END-OK     0508 ADDED                                                            
+       446       5210    CONDITION G-PRVTRMLT-END-OK     0504 DELETED                                                          
+         1       5212    JOB ErCcsRunUmii.xml, TABLE FaAdHocTbl  FORCED                                                        
+       401       5216    REMOVED FROM ACTIVE JOB FILE BY GENERAL DAILY                                                         
+         6       5401    HELD BY USER e40527                                                                                   
+         4       5402    FREED BY USER e40527                                                                                  
+         2       5403    DELETED BY USER e40527                                                                                
+         2       5404    RERUN BY USER e40527                                                                                  
+         1       5409    JOB KILLED BY USER e15245                                                                             
+         2       5410    JOB FORCED OK                                                                                         
+         2       5411    FORCE OK REQUEST SUBMITTED BY USER emuser                                                             
+        95       5524    START OF TRACKING ALL ACTIVE JOBS                                                                     
+         7       5525    CTMJSA STARTED. MODE=JOBNAME                                                                          
+
+
+
+0510-0000     NEW DAY PROCEDURE STARTED                                                                             
+0510-0000     CONTROL-M LOG CLEANUP STARTED                                                                         
+0510-0000     CONTROL-M LOG CLEANUP ENDED. DAYS=7                                                                   
+0510-0006     ACTIVE JOBS FILE CLEANUP ENDED                                                                        
+
+
+
+stats:  Jobs submitted -- 3154 
+              Ended OK -- 3163  
+           Ended NotOK -- 13  
+          Unique tasks -- 303 
+           Cyclic runs -- 2842 
+     User interactions -- 29  
+               created -- 0  
+                  held -- 4 
+                  free -- 4 
+                 Rerun -- 3  
+             Forced ok -- 16 
+                Killed -- 7 
+               Deleted -- 0
+             Undeleted -- 0
+
+
+
+    # of         msg      
+occurrences      id      example messages (actually 1st occurrence of each msgid text)
+ ----------      ----    ----------------------------------------------------------------
+
+         2          8    SHOUT TO itdatacenter FAILED The user name could not be found.                                        
+         7         11    JOB LOG COPIED TO /tmp/fs_unmount                                                                     
+        84         16    JOB LOG RELEASE FAILED Cannot release sysout of order 172843 run 1                                    
+         1       5006    CONTROL-M LOG CLEANUP ENDED. DAYS=7                                                                   
+         1       5011    CONTROL-M LOG CLEANUP STARTED                                                                         
+         1       5012    CONTROL-M JOBINF CLEANUP STARTED                                                                      
+         1       5013    CONTROL-M JOBINF CLEANUP ENDED. DAYS=3                                                                
+         1       5014    CONTROL-M AGENTS CLEANUP STARTED                                                                      
+         1       5015    CONTROL-M AGENTS CLEANUP ENDED. DAYS=3                                                                
+         1       5019    STATISTICS INFORMATION CLEANUP STARTED.                                                               
+         2       5030    ACTIVE JOBS FILE DOWNLOAD TO CONTROL-M/EM STARTED                                                     
+         1       5034    STATISTICS INFORMATION CLEANUP ENDED. MODE=0. LEAVE=20                                                
+         1       5040    NEW DAY PROCEDURE STARTED                                                                             
+         1       5041    ACTIVE JOBS FILE CLEANUP ENDED                                                                        
+         1       5061    USER DAILY SYSTEM STARTED                                                                             
+         1       5062    USER DAILY SYSTEM ENDED                                                                               
+       400       5065    ORDERED JOB:172715; DAILY SYSTEM, ODATE 20070510                                                      
+      3145       5100    ENDED AT 20070510000722. OSCOMPSTAT 0. RUNCNT 1                                                       
+      3147       5101    STARTED AT 20070510002352 ON BMC-PRD-CTRLM01                                                          
+      3154       5105    SUBMITTED TO BMC-PRD-CTRLM01                                                                          
+      9994       5120    
+                    2    JOB STATE CHANGED TO Analyzed                                                                         
+                   10    JOB STATE CHANGED TO Post processed                                                                   
+                   32    JOB STATE CHANGED TO Wait Time Window                                                                 
+                  403    JOB STATE CHANGED TO Executing                                                                        
+                 9551    JOB STATE CHANGED TO Wait Rerun                                                                       
+        25       5132    STATUS SET TO OK AS A RESULT OF DO OK                                                                 
+      3163       5133    ENDED OK                                                                                              
+        13       5134    ENDED NOTOK                                                                                           
+        23       5140    EMAIL TO FACETSUsers@bcbsla.com;itoperationscenter@bcbsla.com ITFacetsSupport@bcbsla.com;m2das@fcg.com;smenon@fcg.com PERFORM
+        31       5164    DUMMY. STATUS CHANGED TO OK                                                                           
+      5550       5199    CONDITION 'ctmdbused-OK' '    0510' ALREADY EXISTS                                                    
+       350       5209    CONDITION ErCmcRunCldu-ENDED-OK     0509 ADDED                                                        
+        23       5210    CONDITION sqlldr_dura.ksh-TO-eim_dura_pref_rpt.ksh     0505 DELETED                                   
+         2       5212    JOB ErCcsRunUmii.xml, TABLE FaAdHocTbl  FORCED                                                        
+       404       5216    REMOVED FROM ACTIVE JOB FILE BY GENERAL DAILY                                                         
+         4       5401    HELD BY USER e15245                                                                                   
+         4       5402    FREED BY USER e15245                                                                                  
+         3       5404    RERUN BY USER e15245                                                                                  
+         2       5409    JOB KILLED BY USER e15245                                                                             
+        16       5410    JOB FORCED OK                                                                                         
+        16       5411    FORCE OK REQUEST SUBMITTED BY USER e15245                                                             
+        95       5524    START OF TRACKING ALL ACTIVE JOBS                                                                     
+         2       5525    CTMJSA STARTED. MODE=JOBNAME                                                                          
+        26       5600    WATCH DOG PROCESS ENCOUNTERED ERROR The proc CD returned heartbeat but EXPIRE the timeout of: 360 secon
+
+
+
+0511-0000     NEW DAY PROCEDURE STARTED                                                                             
+0511-0001     CONTROL-M LOG CLEANUP STARTED                                                                         
+0511-0001     CONTROL-M LOG CLEANUP ENDED. DAYS=7                                                                   
+0511-0006     ACTIVE JOBS FILE CLEANUP ENDED                                                                        
+
+
+
+stats:  Jobs submitted -- 515 
+              Ended OK -- 539  
+           Ended NotOK -- 10  
+          Unique tasks -- 446 
+           Cyclic runs -- 72 
+     User interactions -- 75  
+               created -- 0  
+                  held -- 29 
+                  free -- 20 
+                 Rerun -- 6  
+             Forced ok -- 9 
+                Killed -- 10 
+               Deleted -- 8
+             Undeleted -- 0
+
+
+
+    # of         msg      
+occurrences      id      example messages (actually 1st occurrence of each msgid text)
+ ----------      ----    ----------------------------------------------------------------
+
+         1          8    SHOUT TO itdatacenter FAILED The user name could not be found.                                        
+         7         11    JOB LOG COPIED TO /tmp/fs_unmount                                                                     
+       118         16    JOB LOG RELEASE FAILED Cannot release sysout of order 173222 run 1                                    
+         1       5006    CONTROL-M LOG CLEANUP ENDED. DAYS=7                                                                   
+         1       5009    RESET CYCLIC FLAG TO NO                                                                               
+         8       5010    MIRRORING HAS FAILED                                                                                  
+         1       5011    CONTROL-M LOG CLEANUP STARTED                                                                         
+         1       5012    CONTROL-M JOBINF CLEANUP STARTED                                                                      
+         1       5013    CONTROL-M JOBINF CLEANUP ENDED. DAYS=3                                                                
+         1       5014    CONTROL-M AGENTS CLEANUP STARTED                                                                      
+         1       5015    CONTROL-M AGENTS CLEANUP ENDED. DAYS=3                                                                
+         1       5019    STATISTICS INFORMATION CLEANUP STARTED.                                                               
+         4       5030    ACTIVE JOBS FILE DOWNLOAD TO CONTROL-M/EM STARTED                                                     
+         1       5034    STATISTICS INFORMATION CLEANUP ENDED. MODE=0. LEAVE=20                                                
+         1       5040    NEW DAY PROCEDURE STARTED                                                                             
+         1       5041    ACTIVE JOBS FILE CLEANUP ENDED                                                                        
+         1       5061    USER DAILY SYSTEM STARTED                                                                             
+         1       5062    USER DAILY SYSTEM ENDED                                                                               
+       447       5065    ORDERED JOB:172715; DAILY SYSTEM, ODATE 20070511                                                      
+       518       5100    ENDED AT 20070511002120. OSCOMPSTAT 0. RUNCNT 1                                                       
+       509       5101    STARTED AT 20070510234504 ON FA-PRD-LOG                                                               
+       515       5105    SUBMITTED TO BMC-PRD-CTRLM01                                                                          
+      2141       5120    
+                    5    JOB STATE CHANGED TO Wait Time Window                                                                 
+                    8    JOB STATE CHANGED TO Analyzed                                                                         
+                    9    JOB STATE CHANGED TO Post processed                                                                   
+                  735    JOB STATE CHANGED TO Executing                                                                        
+                 1381    JOB STATE CHANGED TO Wait Rerun                                                                       
+        23       5132    STATUS SET TO NOTOK AS A RESULT OF DO NOTOK                                                           
+       539       5133    ENDED OK                                                                                              
+        10       5134    ENDED NOTOK                                                                                           
+        22       5140    EMAIL TO ITDATACENTER PERFORMED                                                                       
+        57       5164    DUMMY. STATUS CHANGED TO OK                                                                           
+        12       5199    CONDITION 'ErCmcRunClmu_ITS-ENDED-OK' '    0510' ALREADY EXISTS                                       
+         8       5201    SHOUT TO ECS PERFORMED                                                                                
+         8       5202    SHOUT TO CONSOLE FAILED                                                                               
+       490       5209    CONDITION ErCmcRunXC00-Rebuild-Ended-OK     0510 ADDED                                                
+        25       5210    CONDITION ctmdbused-OK     0506 DELETED                                                               
+        14       5212    JOB ErCcsRunUmii.xml, TABLE FaAdHocTbl  FORCED                                                        
+       338       5216    REMOVED FROM ACTIVE JOB FILE BY GENERAL DAILY                                                         
+        29       5401    HELD BY USER e32320                                                                                   
+        20       5402    FREED BY USER e32320                                                                                  
+         8       5403    DELETED BY USER emuser                                                                                
+         6       5404    RERUN BY USER e32320                                                                                  
+         3       5409    JOB KILLED BY USER e15245                                                                             
+         9       5410    JOB FORCED OK                                                                                         
+        16       5411    FORCE OK REQUEST SUBMITTED BY USER e15245                                                             
+       107       5524    START OF TRACKING ALL ACTIVE JOBS                                                                     
+         2       5525    CTMJSA STARTED. MODE=JOBNAME                                                                          
+        29       5600    WATCH DOG PROCESS ENCOUNTERED ERROR The proc CD returned heartbeat but EXPIRE the timeout of: 360 secon
+         1       5763    FAILED TO DELETE CONDITION:PayRegRepts2-END-OK DATEREF:STAT                                           
+
+
+
+0512-0000     NEW DAY PROCEDURE STARTED                                                                             
+0512-0000     CONTROL-M LOG CLEANUP STARTED                                                                         
+0512-0000     CONTROL-M LOG CLEANUP ENDED. DAYS=7                                                                   
+0512-0001     ACTIVE JOBS FILE CLEANUP ENDED                                                                        
+
+
+
+stats:  Jobs submitted -- 162 
+              Ended OK -- 165  
+           Ended NotOK -- 12  
+          Unique tasks -- 152 
+           Cyclic runs -- 9 
+     User interactions -- 30  
+               created -- 0  
+                  held -- 6 
+                  free -- 7 
+                 Rerun -- 8  
+             Forced ok -- 8 
+                Killed -- 11 
+               Deleted -- 0
+             Undeleted -- 0
+
+
+
+    # of         msg      
+occurrences      id      example messages (actually 1st occurrence of each msgid text)
+ ----------      ----    ----------------------------------------------------------------
+
+         7         11    JOB LOG COPIED TO /tmp/fs_unmount                                                                     
+         6         16    JOB LOG RELEASE FAILED Cannot release sysout of order 173689 run 1                                    
+         1       5006    CONTROL-M LOG CLEANUP ENDED. DAYS=7                                                                   
+         1       5009    RESET CYCLIC FLAG TO NO                                                                               
+         1       5011    CONTROL-M LOG CLEANUP STARTED                                                                         
+         1       5012    CONTROL-M JOBINF CLEANUP STARTED                                                                      
+         1       5013    CONTROL-M JOBINF CLEANUP ENDED. DAYS=3                                                                
+         1       5014    CONTROL-M AGENTS CLEANUP STARTED                                                                      
+         1       5015    CONTROL-M AGENTS CLEANUP ENDED. DAYS=3                                                                
+         1       5019    STATISTICS INFORMATION CLEANUP STARTED.                                                               
+         2       5030    ACTIVE JOBS FILE DOWNLOAD TO CONTROL-M/EM STARTED                                                     
+         1       5034    STATISTICS INFORMATION CLEANUP ENDED. MODE=0. LEAVE=20                                                
+         1       5040    NEW DAY PROCEDURE STARTED                                                                             
+         1       5041    ACTIVE JOBS FILE CLEANUP ENDED                                                                        
+         1       5061    USER DAILY SYSTEM STARTED                                                                             
+         1       5062    USER DAILY SYSTEM ENDED                                                                               
+        21       5065    ORDERED JOB:189651; DAILY SYSTEM, ODATE 20070512                                                      
+       161       5100    ENDED AT 20070512000158. OSCOMPSTAT 0. RUNCNT 1                                                       
+       162       5101    STARTED AT 20070512000149 ON BMC-PRD-CTRLM02                                                          
+       162       5105    SUBMITTED TO BMC-PRD-CTRLM02                                                                          
+       552       5120    
+                   16    JOB STATE CHANGED TO Wait Time Window                                                                 
+                    4    JOB STATE CHANGED TO Executing                                                                        
+                    2    JOB STATE CHANGED TO Analyzed                                                                         
+                   18    JOB STATE CHANGED TO Post processed                                                                   
+                  512    JOB STATE CHANGED TO Wait Rerun                                                                       
+        20       5132    STATUS SET TO NOTOK AS A RESULT OF DO NOTOK                                                           
+       165       5133    ENDED OK                                                                                              
+        12       5134    ENDED NOTOK                                                                                           
+        19       5140    EMAIL TO ITOPERATIONSCENTER@BCBSLA.COM;2256606291@archwireless.net;2256602947@archwireless.net  PERFORM
+        16       5164    DUMMY. STATUS CHANGED TO OK                                                                           
+         8       5199    CONDITION 'ProvTermLtr.exe-ENDED-OK' '    STAT' ALREADY EXISTS                                        
+       178       5209    CONDITION testjob1-ENDED     0512 ADDED                                                               
+       414       5210    CONDITION ErCmcRunCkmm_SB.xml-ENDED-OK     0507 DELETED                                               
+       476       5216    REMOVED FROM ACTIVE JOB FILE BY GENERAL DAILY                                                         
+         6       5401    HELD BY USER e15245                                                                                   
+         7       5402    FREED BY USER e15245                                                                                  
+         8       5404    RERUN BY USER e32320                                                                                  
+         1       5409    JOB KILLED BY USER e32320                                                                             
+         8       5410    JOB FORCED OK                                                                                         
+         8       5411    FORCE OK REQUEST SUBMITTED BY USER e32320                                                             
+        96       5524    START OF TRACKING ALL ACTIVE JOBS                                                                     
+         2       5525    CTMJSA STARTED. MODE=JOBNAME                                                                          
+
+
+
+0513-0000     NEW DAY PROCEDURE STARTED                                                                             
+0513-0000     CONTROL-M LOG CLEANUP STARTED                                                                         
+0513-0000     CONTROL-M LOG CLEANUP ENDED. DAYS=7                                                                   
+0513-0001     ACTIVE JOBS FILE CLEANUP ENDED                                                                        
+
+
+
+stats:  Jobs submitted -- 35 
+              Ended OK -- 37  
+           Ended NotOK -- 1  
+          Unique tasks -- 37 
+           Cyclic runs -- 1 
+     User interactions -- 11  
+               created -- 0  
+                  held -- 5 
+                  free -- 5 
+                 Rerun -- 0  
+             Forced ok -- 1 
+                Killed -- 11 
+               Deleted -- 0
+             Undeleted -- 0
+
+
+
+    # of         msg      
+occurrences      id      example messages (actually 1st occurrence of each msgid text)
+ ----------      ----    ----------------------------------------------------------------
+
+         2          8    SHOUT TO itdatacenter FAILED The user name could not be found.                                        
+         5         16    JOB LOG RELEASE FAILED Printer does not define                                                        
+         1       5006    CONTROL-M LOG CLEANUP ENDED. DAYS=7                                                                   
+         1       5010    MIRRORING HAS FAILED                                                                                  
+         1       5011    CONTROL-M LOG CLEANUP STARTED                                                                         
+         1       5012    CONTROL-M JOBINF CLEANUP STARTED                                                                      
+         1       5013    CONTROL-M JOBINF CLEANUP ENDED. DAYS=3                                                                
+         1       5014    CONTROL-M AGENTS CLEANUP STARTED                                                                      
+         1       5015    CONTROL-M AGENTS CLEANUP ENDED. DAYS=3                                                                
+         1       5019    STATISTICS INFORMATION CLEANUP STARTED.                                                               
+         2       5030    ACTIVE JOBS FILE DOWNLOAD TO CONTROL-M/EM STARTED                                                     
+         1       5034    STATISTICS INFORMATION CLEANUP ENDED. MODE=0. LEAVE=20                                                
+         1       5040    NEW DAY PROCEDURE STARTED                                                                             
+         1       5041    ACTIVE JOBS FILE CLEANUP ENDED                                                                        
+         1       5061    USER DAILY SYSTEM STARTED                                                                             
+         1       5062    USER DAILY SYSTEM ENDED                                                                               
+        27       5065    ORDERED JOB:172283; DAILY SYSTEM, ODATE 20070513                                                      
+        38       5100    ENDED AT 20070513000132. OSCOMPSTAT 0. RUNCNT 1                                                       
+        35       5101    STARTED AT 20070513000123 ON BMC-PRD-CTRLM02                                                          
+        35       5105    SUBMITTED TO BMC-PRD-CTRLM02                                                                          
+       141       5120    
+                   24    JOB STATE CHANGED TO Wait Condition                                                                   
+                    4    JOB STATE CHANGED TO Executing                                                                        
+                    2    JOB STATE CHANGED TO Analyzed                                                                         
+                   14    JOB STATE CHANGED TO Post processed                                                                   
+                  101    JOB STATE CHANGED TO Wait Rerun                                                                       
+         8       5132    STATUS SET TO NOTOK AS A RESULT OF DO NOTOK                                                           
+        37       5133    ENDED OK                                                                                              
+         1       5134    ENDED NOTOK                                                                                           
+         8       5140    EMAIL TO itoperationscenter@BCBSLA.COM;2256606291@archwireless.net2256602947@archwireless.net 2256602118@archwireless.net PERFORM
+         1       5201    SHOUT TO ECS PERFORMED                                                                                
+         1       5202    SHOUT TO CONSOLE FAILED                                                                               
+        21       5209    CONDITION testjob1-ENDED     0513 ADDED                                                               
+       414       5210    CONDITION G-EFACD200-END-OK     0508 DELETED                                                          
+       170       5216    REMOVED FROM ACTIVE JOB FILE BY GENERAL DAILY                                                         
+         4       5222    STATUS OF AGENT PLATFORM ds5.lahsic.com CHANGED TO UNAVAILABLE                                        
+         5       5401    HELD BY USER e15245                                                                                   
+         5       5402    FREED BY USER e15245                                                                                  
+         1       5410    JOB FORCED OK                                                                                         
+         1       5411    FORCE OK REQUEST SUBMITTED BY USER e15245                                                             
+        97       5524    START OF TRACKING ALL ACTIVE JOBS                                                                     
+         2       5525    CTMJSA STARTED. MODE=JOBNAME                                                                          
+         1       5763    FAILED TO DELETE CONDITION:testjob4-ENDED DATEREF:0513                                                
+
+
+
+0514-0001     NEW DAY PROCEDURE STARTED                                                                             
+0514-0001     CONTROL-M LOG CLEANUP STARTED                                                                         
+0514-0001     CONTROL-M LOG CLEANUP ENDED. DAYS=7                                                                   
+0514-0002     ACTIVE JOBS FILE CLEANUP ENDED                                                                        
+
+
+
+stats:  Jobs submitted -- 335 
+              Ended OK -- 350  
+           Ended NotOK -- 8  
+          Unique tasks -- 269 
+           Cyclic runs -- 70 
+     User interactions -- 12  
+               created -- 0  
+                  held -- 1 
+                  free -- 1 
+                 Rerun -- 2  
+             Forced ok -- 8 
+                Killed -- 11 
+               Deleted -- 0
+             Undeleted -- 0
+
+
+
+    # of         msg      
+occurrences      id      example messages (actually 1st occurrence of each msgid text)
+ ----------      ----    ----------------------------------------------------------------
+
+         2          8    SHOUT TO itdatacenter FAILED The user name could not be found.                                        
+        95         16    JOB LOG RELEASE FAILED Printer does not define                                                        
+         1       5006    CONTROL-M LOG CLEANUP ENDED. DAYS=7                                                                   
+         1       5011    CONTROL-M LOG CLEANUP STARTED                                                                         
+         1       5012    CONTROL-M JOBINF CLEANUP STARTED                                                                      
+         1       5013    CONTROL-M JOBINF CLEANUP ENDED. DAYS=3                                                                
+         1       5014    CONTROL-M AGENTS CLEANUP STARTED                                                                      
+         1       5015    CONTROL-M AGENTS CLEANUP ENDED. DAYS=3                                                                
+         1       5019    STATISTICS INFORMATION CLEANUP STARTED.                                                               
+         4       5030    ACTIVE JOBS FILE DOWNLOAD TO CONTROL-M/EM STARTED                                                     
+         1       5034    STATISTICS INFORMATION CLEANUP ENDED. MODE=0. LEAVE=20                                                
+         1       5040    NEW DAY PROCEDURE STARTED                                                                             
+         1       5041    ACTIVE JOBS FILE CLEANUP ENDED                                                                        
+         1       5061    USER DAILY SYSTEM STARTED                                                                             
+         1       5062    USER DAILY SYSTEM ENDED                                                                               
+       413       5065    ORDERED JOB:172715; DAILY SYSTEM, ODATE 20070514                                                      
+       339       5100    ENDED AT 20070514000322. OSCOMPSTAT 0. RUNCNT 1                                                       
+       335       5101    STARTED AT 20070514000316 ON BMC-PRD-CTRLM01                                                          
+       335       5105    SUBMITTED TO BMC-PRD-CTRLM02                                                                          
+      1546       5120    
+                   71    JOB STATE CHANGED TO Wait Condition                                                                   
+                  166    JOB STATE CHANGED TO Executing                                                                        
+                    7    JOB STATE CHANGED TO Analyzed                                                                         
+                  180    JOB STATE CHANGED TO Post processed                                                                   
+                 1125    JOB STATE CHANGED TO Wait Rerun                                                                       
+         7       5132    STATUS SET TO OK AS A RESULT OF DO OK                                                                 
+       350       5133    ENDED OK                                                                                              
+         8       5134    ENDED NOTOK                                                                                           
+         5       5140    EMAIL TO itoperationscenter@bcbsla.com FACETSPayment@bcbsla.com PERFORMED                             
+        19       5164    DUMMY. STATUS CHANGED TO OK                                                                           
+         4       5199    CONDITION 'ACHFTP-END-OK' '    0514' ALREADY EXISTS                                                   
+       314       5209    CONDITION testjob1-ENDED     0514 ADDED                                                               
+       414       5210    CONDITION ErCmcRunCkdm_SB.xml-ENDED-OK     0509 DELETED                                               
+         6       5212    JOB ErCcsRunUmii.xml, TABLE FaAdHocTbl  FORCED                                                        
+        37       5216    REMOVED FROM ACTIVE JOB FILE BY GENERAL DAILY                                                         
+         4       5220    STATUS OF AGENT PLATFORM ds4.lahsic.com CHANGED TO AVAILABLE                                          
+         1       5401    HELD BY USER e15245                                                                                   
+         1       5402    FREED BY USER e15245                                                                                  
+         2       5404    RERUN BY USER e06683                                                                                  
+         8       5410    JOB FORCED OK                                                                                         
+         8       5411    FORCE OK REQUEST SUBMITTED BY USER e15245                                                             
+        96       5524    START OF TRACKING ALL ACTIVE JOBS                                                                     
+         2       5525    CTMJSA STARTED. MODE=JOBNAME                                                                          
+
+
+
+0515-0001     NEW DAY PROCEDURE STARTED                                                                             
+0515-0001     CONTROL-M LOG CLEANUP STARTED                                                                         
+0515-0001     CONTROL-M LOG CLEANUP ENDED. DAYS=7                                                                   
+0515-0002     ACTIVE JOBS FILE CLEANUP ENDED                                                                        
+
+
+
+stats:  Jobs submitted -- 163 
+              Ended OK -- 178  
+           Ended NotOK -- 3  
+          Unique tasks -- 166 
+           Cyclic runs -- 0 
+     User interactions -- 7  
+               created -- 0  
+                  held -- 2 
+                  free -- 2 
+                 Rerun -- 0  
+             Forced ok -- 3 
+                Killed -- 11 
+               Deleted -- 0
+             Undeleted -- 0
+
+
+
+    # of         msg      
+occurrences      id      example messages (actually 1st occurrence of each msgid text)
+ ----------      ----    ----------------------------------------------------------------
+
+         1          8    SHOUT TO itdatacenter FAILED The user name could not be found.                                        
+         7         11    JOB LOG COPIED TO /tmp/fs_unmount                                                                     
+         6         16    JOB LOG RELEASE FAILED Cannot release sysout of order 174154 run 1                                    
+         1       5006    CONTROL-M LOG CLEANUP ENDED. DAYS=7                                                                   
+         1       5011    CONTROL-M LOG CLEANUP STARTED                                                                         
+         1       5012    CONTROL-M JOBINF CLEANUP STARTED                                                                      
+         1       5013    CONTROL-M JOBINF CLEANUP ENDED. DAYS=3                                                                
+         1       5014    CONTROL-M AGENTS CLEANUP STARTED                                                                      
+         1       5015    CONTROL-M AGENTS CLEANUP ENDED. DAYS=3                                                                
+         1       5019    STATISTICS INFORMATION CLEANUP STARTED.                                                               
+         2       5030    ACTIVE JOBS FILE DOWNLOAD TO CONTROL-M/EM STARTED                                                     
+         1       5034    STATISTICS INFORMATION CLEANUP ENDED. MODE=0. LEAVE=20                                                
+         1       5040    NEW DAY PROCEDURE STARTED                                                                             
+         1       5041    ACTIVE JOBS FILE CLEANUP ENDED                                                                        
+         1       5061    USER DAILY SYSTEM STARTED                                                                             
+         1       5062    USER DAILY SYSTEM ENDED                                                                               
+       405       5065    ORDERED JOB:172715; DAILY SYSTEM, ODATE 20070515                                                      
+       166       5100    ENDED AT 20070515000323. OSCOMPSTAT 0. RUNCNT 1                                                       
+       163       5101    STARTED AT 20070515000311 ON BMC-PRD-CTRLM01                                                          
+       163       5105    SUBMITTED TO BMC-PRD-CTRLM02                                                                          
+       940       5120    
+                  339    JOB STATE CHANGED TO Wait Time Window                                                                 
+                   21    JOB STATE CHANGED TO Executing                                                                        
+                    6    JOB STATE CHANGED TO Analyzed                                                                         
+                  527    JOB STATE CHANGED TO Post processed                                                                   
+                   25    JOB STATE CHANGED TO Wait Rerun                                                                       
+        11       5132    STATUS SET TO OK AS A RESULT OF DO OK                                                                 
+       178       5133    ENDED OK                                                                                              
+         3       5134    ENDED NOTOK                                                                                           
+         8       5140    EMAIL TO FACETSUsers@bcbsla.com;itoperationscenter@bcbsla.com ITFacetsSupport@bcbsla.com;m2das@fcg.com;smenon@fcg.com PERFORM
+        15       5164    DUMMY. STATUS CHANGED TO OK                                                                           
+         5       5199    CONDITION 'ErCmcRunCkmm_SB.xml-ENDED-OK' '    0514' ALREADY EXISTS                                    
+       180       5209    CONDITION testjob1-ENDED     0515 ADDED                                                               
+       436       5210    CONDITION G-ENRLD410-OK     0509 DELETED                                                              
+       290       5216    REMOVED FROM ACTIVE JOB FILE BY GENERAL DAILY                                                         
+         2       5401    HELD BY USER emuser                                                                                   
+         2       5402    FREED BY USER emuser                                                                                  
+         3       5410    JOB FORCED OK                                                                                         
+         3       5411    FORCE OK REQUEST SUBMITTED BY USER emuser                                                             
+        33       5524    START OF TRACKING ALL ACTIVE JOBS                                                                     
+         1       5525    CTMJSA STARTED. MODE=JOBNAME                                                                          
+
+
+
+
+
+ctmlog.summary report  ended at 05/15/2007 10:09:48   
